@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Mapa Covid-19 - América do Sul
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido no decorrer do bootcamp Carrefour Web Developer da [DIO](https://web.dio.me/home), ele consiste em aplicação em React que consome uma API com os dados diários da Covid-19, nele eu limitei a apenas paízes da América do Sul.
 
-## Available Scripts
+Abaixo uma lista das tecnologias utiliza nesse projeto:
 
-In the project directory, you can run:
+- HTML5
+- CSS
+- Javascript
+- React
+  - material-ui
+  - styled-components
+- Progressive Web App (PWA)
 
-### `npm start`
+## Imagens do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Versão desktop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Desktop version](/src/assets/images/01-desktop.png)
 
-### `npm test`
+### Versão mobile (PWA)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Icone
 
-### `npm run build`
+![Mobile version icon](/src/assets/images/02-mobile.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Página de loading
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Mobile version loading page](/src/assets/images/03-mobile.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Página pringipal
 
-### `npm run eject`
+![Mobile version home](/src/assets/images/04-mobile.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Link do projeto implantado no Netlify
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<button><a href="https://acsousa-covid19map.netlify.app/" target="_blank">Mapa Covid</a></button>
