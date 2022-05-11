@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
-import { Card, Typography, Button, Select, MenuItem } from '../../../components';
 import COUNTRIES from '../../../commons/constants/countries';
-import { CardPanelContentStyled, ItemStyled, DivStyled } from './style';
+import { Button, Card, MenuItem, Select, Typography } from '../../../components';
+import { CardPanelContentStyled, DivStyled, ItemStyled } from './style';
 
 const navigatorHasShare = navigator.share;
 
@@ -12,7 +12,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     <MenuItem key={`country-${index}`} value={country.value}>
       <ItemStyled>
         <div>{country.label}</div>
-        <img src={country.flag} alt={`País-${country.label}`} />
+        <img src={country.flag} width={32} height={22} alt={`País-${country.label}`} />
       </ItemStyled>
     </MenuItem>
   )

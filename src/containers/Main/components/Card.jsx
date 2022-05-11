@@ -1,10 +1,9 @@
 import React, { memo } from 'react';
 import { Card as CardUI } from '../../../components';
 import {
-  LabelStyled,
-  ValueStyled,
-  CardContentStyled
-} from './style'
+  CardContentStyled, LabelStyled,
+  ValueStyled
+} from './style';
 
 function Card({ value, label, color }) {
   return (
