@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CardContent, Typography, Button } from '../../../components';
+import { CardContent, Typography } from '../../../components';
 
 export const LabelStyled = styled(Typography)`
   font-weight: 500;
