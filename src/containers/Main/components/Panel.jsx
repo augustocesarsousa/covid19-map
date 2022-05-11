@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Card, Typography, Button, Select, MenuItem } from '../../../components';
 import COUNTRIES from '../../../commons/constants/countries';
-import { CardPanelContentStyled, ItemStyled } from './style';
+import { CardPanelContentStyled, ItemStyled, DivStyled } from './style';
 
 const navigatorHasShare = navigator.share;
 
@@ -27,7 +27,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'https://covid19dio.netlify.app/'
+      url: 'https://acsousa-covid19map.netlify.app/'
     });
   }
 
@@ -60,7 +60,9 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
             </Select>
           </div>
         </div>
-        {navigatorHasShare ? renderShareButton : renderCopyButton}
+        <DivStyled>
+          {navigatorHasShare ? renderShareButton : renderCopyButton}
+        </DivStyled>
       </CardPanelContentStyled>
     </Card>
   )
