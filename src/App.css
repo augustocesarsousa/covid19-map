@@ -1,0 +1,15 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#root{
+    margin-bottom: 80px;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: unset;
+}
